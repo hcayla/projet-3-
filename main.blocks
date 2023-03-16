@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="i`]6]ri7xzH7n@gZFl)f" x="20" y="20"></block><block type="device_forever" id="!e5E.WkjmF=#HHzl5;$]" x="225" y="20"><statement name="HANDLER"><block type="controls_if" id="Ca2fO,yAM%,lt1yFyv4d"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=")Om_#OYLT0!P$f+#o,{+"><field name="OP">GTE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="AG9X^_$nsjRoBB4wYXmE"></block></value><value name="B"><shadow type="math_number" id="T7Qd%R}Pc81ICy5Y1n66"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_icon" id="W9cy|^w}ic/yoQ)XBYYk"><field name="i">IconNames.Chessboard</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="M*)o]u).b}RgU1^2JpX+"><field name="LEDS">`
+        . . . # . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
